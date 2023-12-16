@@ -42,7 +42,7 @@ GotWoodData[BS"Frost Resistance Totem"].life = 5
 GotWoodData[BS"Frost Resistance Totem"].ele = "fire"
 
 GotWoodData[BS"Grace of Air Totem"] = {}
-GotWoodData[BS"Grace of Air Totem"].duration = 120
+GotWoodData[BS"Grace of Air Totem"].duration = 8.5
 GotWoodData[BS"Grace of Air Totem"].life = 5
 GotWoodData[BS"Grace of Air Totem"].ele = "air"
 
