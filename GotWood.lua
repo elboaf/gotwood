@@ -220,7 +220,7 @@ function GotWood:SpellStatus_SpellCastInstant(sId, sName, sRank, sFullName, sCas
         end
         
         if rank and GotWoodData[sName][rank] then
-            self[ele]:SetTime(GotWoodData[sName][rank].duration)
+            self[ele]:SetTime(GotWoodData[sName].duration)
         else
             self[ele]:SetTime(GotWoodData[sName].duration)
         end

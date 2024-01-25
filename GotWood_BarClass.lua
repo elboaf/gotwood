@@ -80,7 +80,7 @@ function GotWood.bar.prototype:GetName()
 end
 
 function GotWood.bar.prototype:StartFromSwitch(time, name)
-    if time < 120 then
+    if time > 0 then
         self:SetTime(time)
         self:SetCandyBarIcon("gotwood"..self.ele, self.db.profile["Texture"..self.ele])
         self:Start(name)
