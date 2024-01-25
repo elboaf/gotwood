@@ -72,7 +72,7 @@ GotWoodData[BS"Mana Tide Totem"].life = 5
 GotWoodData[BS"Mana Tide Totem"].ele = "water"
 
 GotWoodData[BS"Nature Resistance Totem"] = {}
-GotWoodData[BS"Nature Resistance Totem"].duration = 120
+GotWoodData[BS"Nature Resistance Totem"].duration = 8.5
 GotWoodData[BS"Nature Resistance Totem"].life = 5
 GotWoodData[BS"Nature Resistance Totem"].ele = "air"
 
